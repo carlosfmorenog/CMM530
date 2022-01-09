@@ -1,0 +1,6 @@
+#! /bin/bash
+STARTLOCATION=$HOME
+FILENAME=scr_3-2
+echo "Searching for the file named $FILENAME"
+echo "in the $STARTLOCATION directory"
+find $STARTLOCATION -name $FILENAME

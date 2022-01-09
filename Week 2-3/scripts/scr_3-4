@@ -1,0 +1,9 @@
+#! /bin/bash
+clear
+echo "Welcome to the FIND script"
+echo -n "Enter the location (such as /home) where the search should start:"
+read STARTLOCATION
+echo -n "WHat is the name of the file to search for?"
+read FILENAME
+echo "Starting search for the $FILENAME file in the $STARTLOCATION directory..."
+find $STARTLOCATION -name $FILENAME 2> /dev/null

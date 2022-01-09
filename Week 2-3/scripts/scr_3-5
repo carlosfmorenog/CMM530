@@ -1,0 +1,4 @@
+#! /bin/bash
+clear
+echo "Searching for $2 starting in the $1 directory"
+find $1 -name $2 2> /dev/null

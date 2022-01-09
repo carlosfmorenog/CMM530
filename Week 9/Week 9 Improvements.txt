@@ -1,0 +1,4 @@
+Software Security:
+Meltdown and Spectre Attacks
+https://www.zdnet.com/article/researchers-discover-seven-new-meltdown-and-spectre-attacks/
+https://www.cnet.com/news/7-new-spectre-meltdown-attacks-uncovered-by-security-researchers/

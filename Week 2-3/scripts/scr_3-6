@@ -1,0 +1,11 @@
+#! /bin/bash
+clear
+echo "Enter the name of a file you think is in your current directory."
+read FILENAME
+if [ -a $FILENAME ]
+then
+echo "You're right! $FILENAME is in your current directory."
+else
+echo "Sorry, $FILENAME is not in your current directory."
+fi
+echo "Finishing script..."

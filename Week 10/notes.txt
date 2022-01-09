@@ -1,0 +1,12 @@
+What was taught vs exam
+
+Topics that were barely covered:
+-Attacks on SSH/SSL (solution: tell students in the review to study them)
+
+Topics that were not covered:
+-Proxy Server (Solution: Change the question for application proxy)
+-Proactive Password Checking
+
+Topics that I don't know if were covered (Week 8?)
+-5 Most typical security violations
+-3 Levels of impact in organisation assets

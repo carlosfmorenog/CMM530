@@ -1,0 +1,22 @@
+#! /bin/bash
+clear
+echo "Please select an option:"
+echo
+echo "1) Display your current directory."
+echo "2) Display your home directory."
+echo "3) List the contents of the current directory."
+echo
+read CHOICE
+if [ $CHOICE = 1 ]
+then
+pwd
+fi
+if [ $CHOICE = 2 ]
+then
+echo $HOME
+fi
+if [ $CHOICE = 3 ]
+then
+ls
+fi
+echo "Finishing script..."

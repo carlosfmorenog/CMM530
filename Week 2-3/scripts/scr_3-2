@@ -1,0 +1,14 @@
+#!/bin/bash
+# This is a comment line and can be
+# reconfigured by the preceding pound symbol
+clear
+echo Your current directory is
+pwd
+echo "You are changing your parent directory, which is..."
+cd ..
+pwd
+echo "You are moving back to the scripts directory"
+cd ~/scripts
+pwd
+echo "Here is a long listing of all your files and directories."
+ls -1
